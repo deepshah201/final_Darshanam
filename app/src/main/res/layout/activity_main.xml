@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7F26"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/temple"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="50dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/hindu" />
+
+    <TextView
+        android:id="@+id/darshanam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temple"
+        android:layout_marginTop="91dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Darshanam"
+        android:textColor="#FFFBF1"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/codersoftech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/darshanam"
+        android:layout_marginTop="140dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="CoderSoftech"
+        android:textColor="#FFFBF1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/codersoftech"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Version 0.0.1"
+        android:textColor="#FFFBF1"
+        android:textSize="20sp" />
+
+</RelativeLayout>
